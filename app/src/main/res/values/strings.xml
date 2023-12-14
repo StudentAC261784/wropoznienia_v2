@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">WROpoznienia</string>
+    <string name="map_id">a9df4916c69c5b7a</string>
+    <string name="filter_button">Filter button</string>
+    <string name="login">LOGOWANIE</string>
+    <string name="podaj_adres_e_mail">Podaj adres E-Mail</string>
+    <string name="podaj_has_o">Podaj hasło</string>
+    <string name="utw_rz_nowe_konto">Utwórz nowe konto</string>
+    <string name="zaloguj_si">Zaloguj się</string>
+    <string name="zarejestruj_si">Zarejestruj się</string>
+    <string name="przejd_do_logowania">Przejdź do logowania</string>
+    <string name="wyloguj">Wyloguj</string>
+    <string name="web_client_id">72584614448-j5ptdifins7hvv1rqfbsdag2lc3r6fp7.apps.googleusercontent.com</string>
+
+    <string name="facebook_app_id">1384710565795825</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">56789</string>
+
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VehiclesFilterRecycler"
+    android:orientation="vertical">
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:queryHint="Wyszukaj linię"
+        android:iconifiedByDefault="false"
+        android:layout_margin="8dp"
+        tools:targetApi="honeycomb" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/filterTramButton"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:text="Tramwaje"
+            android:layout_margin="10dp" />
+
+        <Button
+            android:id="@+id/filterBusButton"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:text="Autobusy"
+            android:layout_margin="10dp" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_filter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:itemCount="5"
+        tools:listitem="@layout/card_view_design" />
+
+</LinearLayout>

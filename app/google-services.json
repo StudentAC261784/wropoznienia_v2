@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "72584614448",
+    "project_id": "wropoznienia-401812",
+    "storage_bucket": "wropoznienia-401812.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:72584614448:android:f22783df8cfff169c453f5",
+        "android_client_info": {
+          "package_name": "com.example.wropoznienia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "72584614448-t73htrf78jn0nafnk79j6nr9nfjkjjsp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.wropoznienia",
+            "certificate_hash": "01f33f8475cbc37ec0485e0e9fa1eeb99f4e40eb"
+          }
+        },
+        {
+          "client_id": "72584614448-j5ptdifins7hvv1rqfbsdag2lc3r6fp7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEJI4A2irZt1H8_nbGa5m7qNhN5BXbW3A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "72584614448-j5ptdifins7hvv1rqfbsdag2lc3r6fp7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
